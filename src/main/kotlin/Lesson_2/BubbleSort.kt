@@ -1,3 +1,5 @@
+package Lesson_2
+
 import java.util.Comparator
 
 fun startBubbleSort(size: Int): List<Laptop> {
@@ -6,7 +8,7 @@ fun startBubbleSort(size: Int): List<Laptop> {
     val start = System.currentTimeMillis()
     val result = bubbleSort(laptopList, comparator)
     val end = System.currentTimeMillis()
-    println("[ Bubble Sort ] Time: " + (end - start) + "ms")
+    println("[ Bubble Sort ] Time: " + (end - start) + " ms")
     return result
 }
 

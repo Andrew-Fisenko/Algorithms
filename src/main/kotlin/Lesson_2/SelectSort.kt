@@ -1,3 +1,5 @@
+package Lesson_2
+
 import java.util.Comparator
 
 fun startSelectSort(size: Int): List<Laptop> {
@@ -6,7 +8,7 @@ fun startSelectSort(size: Int): List<Laptop> {
     val start = System.currentTimeMillis()
     val result = selectSort(laptopList, comparator)
     val end = System.currentTimeMillis()
-    println("[ Select Sort ] Time: " + (end - start) + "ms")
+    println("[ Select Sort ] Time: " + (end - start) + " ms")
     return result
 }
 

@@ -1,3 +1,5 @@
+package Lesson_2
+
 import java.util.Comparator
 
 fun startInsertSort(size: Int): List<Laptop> {
@@ -6,7 +8,7 @@ fun startInsertSort(size: Int): List<Laptop> {
     val start = System.currentTimeMillis()
     val result = insertSort(laptopList, comparator)
     val end = System.currentTimeMillis()
-    println("[ Insert Sort ] Time: " + (end - start) + "ms")
+    println("[ Insert Sort ] Time: " + (end - start) + " ms")
     return result
 }
 

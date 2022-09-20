@@ -1,7 +1,10 @@
-import java.util.Comparator
+import Lesson_2.sortClass
+import Lesson_3.queue
 
 fun main(){
-     sortClass()
+     queue()
+
+//     sortClass()
 
 //    sortFun()
 

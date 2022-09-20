@@ -1,3 +1,5 @@
+package Lesson_2
+
 import java.util.Comparator
 
 fun startQuickSort(size: Int): List<Laptop> {
@@ -5,7 +7,7 @@ fun startQuickSort(size: Int): List<Laptop> {
     val start = System.currentTimeMillis()
     val result = quickSort(laptopList)
     val end = System.currentTimeMillis()
-    println("[ Quick Sort ] Time: " + (end - start) + "ms")
+    println("[ Quick  Sort ] Time: " + (end - start) + " ms")
     return result
 }
 
