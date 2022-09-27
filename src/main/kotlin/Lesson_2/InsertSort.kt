@@ -1,5 +1,6 @@
 package Lesson_2
 
+
 import java.util.Comparator
 
 fun startInsertSort(size: Int): List<Laptop> {
