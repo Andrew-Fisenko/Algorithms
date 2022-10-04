@@ -1,15 +1,16 @@
-import Lesson_2.sortClass
-import Lesson_3.queue
-import Lesson_4.CustomLinkedListDemo
-import Lesson_4.IteratorDemo
+import lesson_5.bagQuest
+import lesson_5.exponentiation
 
 
-fun main(){
+fun main() {
 
-     CustomLinkedListDemo.linkedList()
-     IteratorDemo.iteratorTest()
+    bagQuest() // Lesson 5
+    println(exponentiation(2, 8)) // Lesson 5
 
-//    queue()
+//    CustomLinkedListDemo.linkedList() // Lesson 4
+//    IteratorDemo.iteratorTest() // Lesson 4
+
+//    queue() // Lesson 3
 
 //    sortClass()
 
